@@ -1,6 +1,6 @@
 html, body, main, section, header, ul, p, h1, h2, h3 {
   font-family: {{{fontList 'default'}}};
-  font-size: 12px;
+  font-size: 14px;
   margin: 0; padding: 0;
   display: block;
 }
@@ -55,6 +55,7 @@ p, li {
 
 .tenure {
   float: right;
+  margin-left: 5px;
 }
 
 thead {
@@ -77,9 +78,6 @@ main > header > h1 {
 }
 #contact {
   float: right;
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }
 
 #contact > div {
@@ -90,4 +88,8 @@ main > header > h1 {
 h2 > span.fa {
   text-align: left;
   margin-right: 3px;
+}
+
+.certificate {
+  color: gray;
 }
